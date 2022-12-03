@@ -1,9 +1,10 @@
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React, { useState } from "react"
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
+  // const [darkToggle, setDarkToggle] = useState(false)
 
   return (
     <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-gray-800">

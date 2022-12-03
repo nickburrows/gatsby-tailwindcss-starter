@@ -15,3 +15,11 @@ a {
 
 @tailwind components;
 @tailwind utilities;
+
+.nav-link {
+  @apply text-gray-200 dark:text-gray-300 hover:underline hover:underline-offset-2 hover:text-blue-500 dark:hover:text-teal-400;
+}
+
+.white-content {
+  background: #e4e4e4;
+}
