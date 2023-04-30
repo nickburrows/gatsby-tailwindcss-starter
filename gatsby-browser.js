@@ -8,7 +8,7 @@ import "@fontsource/roboto/400.css"
 import "@fontsource/roboto/500.css"
 import "@fontsource/roboto/700.css"
 
-import "./src/styles/globals.css"
+import "./src/styles/global.css"
 import "./src/styles/index.scss"
 import React from "react"
 import Layout from "./src/components/Layout"
